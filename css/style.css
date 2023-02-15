@@ -1,0 +1,43 @@
+
+body{
+  background-color: black;
+}
+
+.titulo{
+  text-align: center;
+  color: aliceblue;
+}
+
+.estacionamento-principal{
+  width: 600px;
+  height: 600px;
+  margin:0 auto;
+  background-image: url(../imagens/estacionamento.png);
+  background-repeat: no-repeat;
+  background-size:cover;
+  background-position:center;
+  
+}
+
+
+.estacionamento-carros {
+  width: 600px;
+  height: 400px;
+  padding-top: 120px;
+  display: flex;
+  column-gap: 110px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.carro {
+  width: 100px;
+  height: 150px;
+}
+
+.laranja{
+  order: -1;
+}
+
+
+  
